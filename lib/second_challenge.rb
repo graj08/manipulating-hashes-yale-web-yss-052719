@@ -5,9 +5,11 @@ def second_challenge
    meat: ["chicken", "steak", "salmon"],
    grains: ["rice", "pasta"]
   }
-
-  #code your solution here!
-
-  
-
+  return_array = []
+  groceries.each do |cat,item|
+    return_array.concat(item)
+  end
+return_array
 end
+
+second_challenge
