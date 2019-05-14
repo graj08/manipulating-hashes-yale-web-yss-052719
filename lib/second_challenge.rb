@@ -11,7 +11,6 @@ def second_challenge
   groceries.collect do |x|
   x.values
   end
-  values_array
 end
 
 second_challenge
