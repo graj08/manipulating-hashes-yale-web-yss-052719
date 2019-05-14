@@ -19,6 +19,7 @@ contacts["Freddy Mercury"].each do |key,value|
   if key == :favorite_icecream_flavors
     puts "found the right array!"
   end
+end
   #remember to return your newly altered contacts hash!
 end
 
