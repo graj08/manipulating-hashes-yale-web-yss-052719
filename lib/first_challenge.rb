@@ -18,7 +18,9 @@ def first_challenge
 contacts["Freddy Mercury"].each do |key,value|
   if key == :favorite_icecream_flavors
     puts "found the right array!"
-    value.delete_if("strawberry")
+    value.delete_if do |x|
+      x == "strawberry"
+    end
     puts "Deleted strawberry!"
   end
 end
