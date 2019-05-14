@@ -21,6 +21,7 @@ def first_challenge
     if key == :favorite_icecream_flavors
       if value.include?("strawberry")
         value.delete_if("strawberry")
+        binding.pry
       end
     end
     contacts
