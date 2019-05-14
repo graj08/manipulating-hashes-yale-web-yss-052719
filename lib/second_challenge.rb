@@ -13,3 +13,5 @@ def second_challenge
   end
   values_array
 end
+
+second_challenge
