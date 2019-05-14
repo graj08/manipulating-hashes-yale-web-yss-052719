@@ -23,7 +23,7 @@ def first_challenge
       x = "strawberry"
     end
       end
-    end
+
     contacts
   end
   #remember to return your newly altered contacts hash!
