@@ -8,8 +8,8 @@ def second_challenge
 
   #code your solution here!
   values_array = []
-  groceries.each do |x|
-  puts x.values
+  groceries.collect do |x|
+  x.values
   end
   values_array
 end
