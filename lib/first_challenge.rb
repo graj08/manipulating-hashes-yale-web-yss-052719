@@ -21,3 +21,5 @@ contacts["Freddy Mercury"].each do |key,value|
   end
   #remember to return your newly altered contacts hash!
 end
+
+first_challenge
